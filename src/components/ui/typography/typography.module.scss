@@ -1,27 +1,49 @@
+@import '../../../styles/_typographyMixins';
+
 .large {
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 36px;
-  color: #000;
+  @include font-settings(var(--font-family-primary), var(--font-size-xxl), var(--font-weight-bold), var( --line-height-l), none, var(--color-light-100), text);
 }
 
 .h1 {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 36px;
-  color: #000;
+  @include font-settings(var(--font-family-primary), var(--font-size-xl), var(--font-weight-bold), var( --line-height-l), none, var(--color-light-100), text);
+}
+
+.h2 {
+  @include font-settings(var(--font-family-primary), var(--font-size-l), var(--font-weight-bold), var( --line-height-l), none, var(--color-light-100), text);
+}
+
+.h3 {
+  @include font-settings(var(--font-family-primary), var(--font-size-m), var(--font-weight-bold), var( --line-height-m), none, var(--color-light-100), text);
+}
+
+.body1 {
+  @include font-settings(var(--font-family-primary), var(--font-size-m), var(--font-weight-regular), var( --line-height-m), none, var(--color-light-100), text);
+}
+
+.body2 {
+  @include font-settings(var(--font-family-primary), var(--font-size-s), var(--font-weight-regular), var( --line-height-m), none, var(--color-light-100), text);
+}
+
+.subTitle1 {
+  @include font-settings(var(--font-family-primary), var(--font-size-m), var(--font-weight-bold), var( --line-height-m), none, var(--color-light-100), text);
+}
+
+.subTitle2 {
+  @include font-settings(var(--font-family-primary), var(--font-size-s), var(--font-weight-bold), var( --line-height-m), none, var(--color-light-100), text);
+}
+
+.caption {
+  @include font-settings(var(--font-family-primary), var(--font-size-xs), var(--font-weight-regular), var( --line-height-s), none, var(--color-light-100), text);
+}
+
+.overline {
+  @include font-settings(var(--font-family-primary), var(--font-size-xs), var(--font-weight-bold), var( --line-height-s), none, var(--color-light-100), text);
 }
 
 .link1 {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #397DF6;
+  @include font-settings(var(--font-family-primary), var(--font-size-s), var(--font-weight-regular), var( --line-height-m), underline, var(--color-info-500), pointer);
 }
 
 .link2 {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 16px;
-  color: #397DF6;
+  @include font-settings(var(--font-family-primary), var(--font-size-xs), var(--font-weight-regular), var( --line-height-s), underline, var(--color-info-500), pointer);
 }

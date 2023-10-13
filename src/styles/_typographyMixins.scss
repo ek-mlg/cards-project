@@ -1,0 +1,10 @@
+@mixin font-settings($font, $size, $weight, $height, $textDecoration, $color, $cursor) {
+  cursor: $cursor;
+
+  font-family: $font;
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $height;
+  color: $color;
+  text-decoration: $textDecoration;
+}

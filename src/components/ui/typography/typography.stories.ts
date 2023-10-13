@@ -51,6 +51,55 @@ export const H2: Story = {
   },
 }
 
+export const H3: Story = {
+  args: {
+    variant: 'h3',
+    children: 'H3 text option',
+  },
+}
+
+export const Body1: Story = {
+  args: {
+    variant: 'body1',
+    children: 'Body1 text option',
+  },
+}
+
+export const Body2: Story = {
+  args: {
+    variant: 'body2',
+    children: 'Body2 text option',
+  },
+}
+
+export const SubTitle1: Story = {
+  args: {
+    variant: 'subTitle1',
+    children: 'SubTitle1 text option',
+  },
+}
+
+export const SubTitle2: Story = {
+  args: {
+    variant: 'subTitle2',
+    children: 'SubTitle2 text option',
+  },
+}
+
+export const Caption: Story = {
+  args: {
+    variant: 'caption',
+    children: 'Caption text option',
+  },
+}
+
+export const Overline: Story = {
+  args: {
+    variant: 'overline',
+    children: 'Overline text option',
+  },
+}
+
 export const Link1: Story = {
   args: {
     variant: 'link1',
